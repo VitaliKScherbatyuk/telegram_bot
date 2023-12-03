@@ -40,7 +40,7 @@ public class App extends TelegramLongPollingBot {
 	 * extends method for set username bot telegam
 	 */
 	public String getBotUsername() {
-		return "scherbatyukTelegramBot";
+		return "Your username";
 	}
 
 	/**
@@ -48,7 +48,7 @@ public class App extends TelegramLongPollingBot {
 	 */
 	@Override
 	public String getBotToken() {
-		return "6610079484:AAHhy8-e7by4rZ2XAOd92zBRTSB1b91anos";
+		return "Your token";
 	}
 
 	/**
