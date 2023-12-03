@@ -40,16 +40,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<mainClass>TelegramBot.scherbatyuk.App</mainClass>
-					<options>
-						<option>
-							<name>-Dfile.encoding</name>
-							<value>UTF-8</value>
-						</option>
-					</options>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
