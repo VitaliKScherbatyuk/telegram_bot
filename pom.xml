@@ -25,6 +25,11 @@
 			<artifactId>telegrambots</artifactId>
 			<version>6.7.0</version>
 		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.15</version> <!-- Замініть на існуючу версію -->
+		</dependency>
 
 	</dependencies>
 
@@ -35,8 +40,16 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<mainClass>TelegramBot.scherbatyuk.App</mainClass>
+					<options>
+						<option>
+							<name>-Dfile.encoding</name>
+							<value>UTF-8</value>
+						</option>
+					</options>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
+
 </project>
